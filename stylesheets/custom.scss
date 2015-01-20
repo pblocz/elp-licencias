@@ -1,0 +1,39 @@
+---
+---
+#main_content p {
+    text-align: justify;
+}
+
+$width: 700px;
+
+@media screen {
+    header { max-width: $width; }
+    div.shell { width: $width + 70px; }
+    section#downloads, div#no-downloads { 
+	width: $width - 50px;
+	background: transparent url(../images/bg-ramp.jpg) center 159px / #{$width} no-repeat;
+
+    }
+    span.banner-fix { width: $width + 70px; }
+    div.middle {
+	float: left;
+	background: transparent url(../images/download-sprite.png) -227px -4px no-repeat;
+	/* width: 100%; */
+	padding-top: 150px;
+	overflow: hidden;
+	width: 100px;
+	height: 43px;
+    }
+    section#downloads a { height: 58px; }
+    section#downloads a.zip { &, &:hover{ background-position: 0 -9px; }}
+    section#downloads a.tgz { &, &:hover{ background-position: -275px -9px; }}
+    
+    footer { max-width: $width - 40px; 
+	     background: transparent url(../images/footer-ramp.jpg) center -50px / 650px no-repeat }
+
+}
+
+
+
+
+

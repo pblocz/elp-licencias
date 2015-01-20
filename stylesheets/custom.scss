@@ -6,7 +6,7 @@
 
 $width: 700px;
 
-@media screen {
+@media screen and (min-width: $width + 70px) {
     header { max-width: $width; }
     div.shell { width: $width + 70px; }
     section#downloads, div#no-downloads { 
@@ -15,18 +15,15 @@ $width: 700px;
 
     }
     span.banner-fix { width: $width + 70px; }
-    div.middle {
-	float: left;
-	background: transparent url(../images/download-sprite.png) -227px -4px no-repeat;
-	/* width: 100%; */
-	padding-top: 150px;
-	overflow: hidden;
-	width: 100px;
-	height: 43px;
-    }
-    section#downloads a { height: 58px; }
-    section#downloads a.zip { &, &:hover{ background-position: 0 -9px; }}
-    section#downloads a.tgz { &, &:hover{ background-position: -275px -9px; }}
+
+
+    section#downloads a { 
+	height: 63px;
+	width: ($width - 50px) / 2.0;
+	background: transparent url(../images/download-sprite.png) 0px 0px / #{$width - 50px} no-repeat; }
+    section#downloads a.zip { &, &:hover{ background-position: 0 -39px; }}
+    section#downloads a.tgz { &, &:hover{ background-position: -(($width - 50px) / 2.0)  -271px; }}
+    
     
     footer { max-width: $width - 40px; 
 	     background: transparent url(../images/footer-ramp.jpg) center -50px / 650px no-repeat }

@@ -242,8 +242,8 @@ Para hacer esto, hay que tener en cuenta que o tienes el copyright de todos los 
 - Open Source Initiative [[http://www.opensource.org/](http://www.opensource.org/)]
 - Free Software Foundation [[http://www.fsf.org/](http://www.fsf.org/)]
 - Manteniendo Archivos de Licencia Permisivos en un proyecto GPL: Guía para Desarrolladores.[[http://www.softwarefreedom.org/resources/2007/gpl-non-gpl-collaboration.html][srfm]]
-- Creative Commons [[http://creativecommons.org/]]
-- Licencias Open database  [[http://opendatacommons.org/licenses/]]
+- Creative Commons [[http://creativecommons.org/](http://creativecommons.org/)]
+- Licencias Open database  [[http://opendatacommons.org/licenses/](http://opendatacommons.org/licenses/)]
 - Cómo aplicar la licencia GPL [[http://www.gnu.org/licenses/gpl-howto.html][gplhowto]]
 - Introducción al desarrollo de código libre [[http://oss-watch.ac.uk/resources/iprguide][licenseintro]]
 

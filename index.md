@@ -20,6 +20,25 @@ Hay varias licencias, y la que elijas dependerá de los intereses que
 tengas para el proyecto. Hay algunas páginas que te ayudan a elegir,
 por ejemplo [What Kind Of Licence Should I Choose?][whatlicence]
 
+Las licencias libres más comunes y que cubren un gran espectro de casos de uso son:
+
+- **MIT**: Licencia muy corta, simple y permisiva. Sería un
+  equivalente a *CC BY* en términos de permisividad y sin garantías de
+  uso.
+
+- **Modified BSD**: Equivalente a la licencia **MIT**, pero haciendo
+  explícito que no se puede usar el nombre, marca o logo de los
+  contribuidores o del programa.
+
+- **Mozilla Public License**: Termino medio entre la licencia **BSD
+  Modificada** y la **GPL**. A lo que especifica la licencia **BSB**
+  se añade que si se distribuye el software, el código fuente también
+  hay que distribuirlo.
+
+- **GPL**: La licencia libre por excelencia que obliga a liberar el
+  código al igual que la MPL, informar de cambios en el código e
+  impide crear licencias que sean más privativas que la **GPL**.
+
 ## Poner licencia al código
 
 Es importante seguir correctamente los pasos y referenciar de manera
@@ -40,8 +59,6 @@ licencia. En concreto, debemos poder asegurar legalmente que:
   asegurarse que se mantiene la licencia y autoría del código.
 
 En proyectos pequeños, es más fácil asegurar que el código es exclusivamente propiedad intelectual del dueño. Proyectos más grandes pueden haber recibido contribuciones de personas externas al proyecto, como un contratista o alguien que ha donado código, y no tener los derechos sobre ese trabajo explícitamente.
-
-	Aquí iría lo de la acción judicial, si lo queréis poner
 
 
 Es importante definir un proceso de auditoría continuada de la
@@ -206,8 +223,8 @@ Es importante puntualizar que hay una licencia con requisitos particulares: Comm
 Además de incluir las licencias de las librerías se deberá incluir la
 licencia de cada componente de código usada en el proyecto. Se suele
 incluir el texto completo de la licencia de cada componente en el
-directorio donde se encuentra.
-
+directorio donde se encuentra. También es importante mantener las
+cabeceras de licencia de los archivos, aunque esto puede ser obligatorio o no dependiendo de la licencia usada.
 
 ## Formas de negocio
 
@@ -217,8 +234,20 @@ Es decir, el software se lanza bajo una licencia copyleft fuerte y lanzar otra v
 
 Para hacer esto, hay que tener en cuenta que o tienes el copyright de todos los componentes del software o bien los distintos desarrolladores están de acuerdo en liberarlo bajo esa licencia.
 
+## Enlaces de interés
 
+- Explica la importancia de mantener una lista de contribuyentes a un
+  proyecto [[https://www.softwarefreedom.org/resources/2012/...][softwareblame]]
 
+- Open Source Initiative [[http://www.opensource.org/](http://www.opensource.org/)]
+- Free Software Foundation [[http://www.fsf.org/](http://www.fsf.org/)]
+- Manteniendo Archivos de Licencia Permisivos en un proyecto GPL: Guía para Desarrolladores.[[http://www.softwarefreedom.org/resources/2007/gpl-non-gpl-collaboration.html][srfm]]
+- Creative Commons [[http://creativecommons.org/]]
+- Licencias Open database  [[http://opendatacommons.org/licenses/]]
+- Cómo aplicar la licencia GPL [[http://www.gnu.org/licenses/gpl-howto.html][gplhowto]]
+- Introducción al desarrollo de código libre [[http://oss-watch.ac.uk/resources/iprguide][licenseintro]]
+
+[srfm]: <http://www.softwarefreedom.org/resources/2007/gpl-non-gpl-collaboration.html>
 [openyourcode]: <http://oss-watch.ac.uk/resources/opensourceyourcode>
 [licenseintro]: <http://oss-watch.ac.uk/resources/iprguide>
 [whatlicence]: <http://oss-watch.ac.uk/resources/licdiff>
@@ -226,3 +255,4 @@ Para hacer esto, hay que tener en cuenta que o tienes el copyright de todos los 
 
 [chooselicense]: <http://choosealicense.com/licenses/>
 [gplhowto]: <http://www.gnu.org/licenses/gpl-howto.html>
+[softwareblame]: <https://www.softwarefreedom.org/resources/2012/ManagingCopyrightInformation.html>
